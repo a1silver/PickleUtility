@@ -1,0 +1,68 @@
+apiVersion: v1
+entries:
+  dao-2048:
+  - apiVersion: v2
+    appVersion: 1.1.0-alpha.1-dirty
+    created: "2021-12-16T19:50:27.7753437+08:00"
+    description: 2048 is a number puzzle game.
+    digest: 93757d40dbb86b95d7ed24c82b68b4c840d3b67fd9fd11501f782ed064b5d86d
+    name: dao-2048
+    type: application
+    urls:
+    - https://github.com/DaoCloud/dao-2048/releases/download/dao-2048-1.1.0-alpha.1-dirty/dao-2048-1.1.0-alpha.1-dirty.tgz
+    version: 1.1.0-alpha.1-dirty
+  - apiVersion: v2
+    appVersion: 1.1.0-alpha.6
+    created: "2021-12-16T20:44:42.6229962+08:00"
+    description: 2048 is a number puzzle game.
+    digest: f2798cf2ab0e022dfc491949af8ff2d9d6da4da6d21775812113f1778af32e31
+    icon: http://daocloud.github.io/dao-2048/meta/apple-touch-icon.png
+    name: dao-2048
+    sources:
+    - https://github.com/DaoCloud/dao-2048/
+    - https://github.com/gabrielecirulli/2048
+    type: application
+    urls:
+    - https://github.com/DaoCloud/dao-2048/releases/download/dao-2048-1.1.0-alpha.6/dao-2048-1.1.0-alpha.6.tgz
+    version: 1.1.0-alpha.6
+  - apiVersion: v2
+    appVersion: 1.1.0-alpha.4
+    created: "2021-12-16T20:32:26.4316281+08:00"
+    description: 2048 is a number puzzle game.
+    digest: 6a3276291fe1298db4b7d21a3a92933f7fd0f6b79487a7d11017851278c1808e
+    name: dao-2048
+    type: application
+    urls:
+    - https://github.com/DaoCloud/dao-2048/releases/download/dao-2048-1.1.0-alpha.4/dao-2048-1.1.0-alpha.4.tgz
+    version: 1.1.0-alpha.4
+  - apiVersion: v2
+    appVersion: 1.1.0-alpha.3
+    created: "2021-12-16T20:25:06.6526058+08:00"
+    description: 2048 is a number puzzle game.
+    digest: c04d3b92e8353e0e1dd0479fa9950d881fd89a3dad7931dab5be6ea253c6a4ef
+    name: dao-2048
+    type: application
+    urls:
+    - https://github.com/DaoCloud/dao-2048/releases/download/dao-2048-1.1.0-alpha.3/dao-2048-1.1.0-alpha.3.tgz
+    version: 1.1.0-alpha.3
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-12-16T16:05:49.2717192+08:00"
+    description: 2048 is a number puzzle game.
+    digest: 0b006681dd62edceee105e0b0d6d584088d95e4ebc478e8687fbef64cde02636
+    name: dao-2048
+    type: application
+    urls:
+    - https://github.com/DaoCloud/dao-2048/releases/download/dao-2048-0.1.0/dao-2048-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 0.1.0-alpha.1-dirty
+    created: "2021-12-16T16:34:42.3085715+08:00"
+    description: 2048 is a number puzzle game.
+    digest: 7391fbdcfada7f72c2af639ec964e4b2e92f6aeec3c1d57993551742b95a692c
+    name: dao-2048
+    type: application
+    urls:
+    - https://github.com/DaoCloud/dao-2048/releases/download/dao-2048-0.1.0-alpha.1-dirty/dao-2048-0.1.0-alpha.1-dirty.tgz
+    version: 0.1.0-alpha.1-dirty
+generated: "2021-12-16T20:44:42.6230401+08:00"

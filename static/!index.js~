@@ -1,0 +1,65 @@
+const form = document.querySelector('#search');
+const input = document.querySelector('#url');
+
+form.addEventListener('submit', async event => {
+    event.preventDefault();
+    window.navigator.serviceWorker.register('./sw.js', {
+        scope: __uv$config.prefix
+    }).then(() => {
+        let url = input.value.trim();
+      
+        if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
+        else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
+
+        window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
+    });
+});
+
+function isUrl(val = ''){
+    if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
+    return false;
+};
+
+/*
+input.addEventListener('keyup', (key) => {
+    if (key.keyCode == 13) { 
+        if (!input.value.trim().length) return;
+        // window.location.assign(`/prox/?url=${btoa(input.value)}`);
+        navigate(input.value);
+    }
+});
+
+input2.addEventListener('keyup', (key) => {
+    if (key.keyCode == 13) { 
+        if (!input2.value.trim().length) return;
+        // window.location.assign(`/prox/?url=${btoa(input2.value)}`);
+        navigate(input2.value);
+    }
+});
+
+search.addEventListener('keyup', (key) => {
+    if (key.keyCode == 13) { 
+        var input = document.getElementById("searchbox").value;
+        if (!input.trim().length) return;
+        input = `https://google.com/search?q=` + input;
+        // window.location.assign(`/prox/?url=${btoa(input)}`);
+        navigate(input.value);
+    }
+});
+
+document.querySelector("#initiate").addEventListener('click', () => {
+
+    if (!input.value.trim().length) return;
+    // window.location.assign(`/prox/?url=${btoa(input.value)}`);
+  navigate(input.value);
+    
+});
+
+document.querySelector("#initiate2").addEventListener('click', () => {
+
+    if (!input2.value.trim().length) return;
+    // window.location.assign(`/prox/?url=${btoa(input2.value)}`);
+  navigate(input2.value);
+
+});
+*/

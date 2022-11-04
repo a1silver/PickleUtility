@@ -1,0 +1,7 @@
+language = "nodejs"
+run = "node index.js"
+onBoot = "chmod u+x main.sh"
+
+[auth]
+pageEnabled = false
+buttonEnabled = false

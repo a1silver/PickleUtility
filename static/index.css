@@ -1,0 +1,202 @@
+ body {
+     background: var(--bs-gray-dark);
+     color: #fff;
+}
+ .navbar-toggler {
+     display: none;
+}
+ .hero {
+     margin-top: 5%;
+}
+ @media only screen and (max-width: 630px) {
+     .navbar-toggler {
+         display: inherit;
+    }
+     .nav-links {
+         display: none !important;
+    }
+}
+ #features {
+     margin-top: 100px;
+}
+ .section-features {
+     padding-top: 110px;
+     padding-bottom: 120px;
+     background-color: #211f24;
+     color: #fff;
+}
+ .section-features .header-section {
+     margin-bottom: 35px;
+}
+ .section-features .header-section .title {
+     position: relative;
+     margin-bottom: 40px;
+     padding-bottom: 25px;
+     text-transform: uppercase;
+     font-weight: 700;
+}
+ .section-features .header-section .title:before {
+     content: "";
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 140px;
+     height: 1px;
+     background-color: #29f700;
+}
+ .section-features .header-section .title:after {
+     content: "";
+     position: absolute;
+     bottom: -1px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 45px;
+     height: 3px;
+     background-color: #29f700;
+}
+ .section-features .header-section .title span {
+     color: #29f700;
+}
+ .section-features .header-section .description {
+     color: #6f6f71;
+}
+ .section-features .single-service {
+     margin-top: 40px;
+     background-color: #24252a;
+     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+ .section-features .single-service .part-1 {
+     padding: 40px 40px 25px;
+     border-bottom: 2px solid #1d1e23;
+}
+ .section-features .single-service .part-1 i {
+     margin-bottom: 25px;
+     font-size: 50px;
+     color: #29f700;
+}
+ .section-features .single-service .part-1 .title {
+     font-size: 17px;
+     font-weight: 700;
+     letter-spacing: 0.02em;
+     line-height: 1.8em;
+}
+ .section-features .single-service .part-2 {
+     padding: 30px 40px 40px;
+}
+ .section-features .single-service .part-2 .description {
+     margin-bottom: 22px;
+     color: #6f6f71;
+     font-size: 14px;
+     line-height: 1.8em;
+}
+ .section-features .single-service .part-2 a {
+     color: #fff;
+     font-size: 14px;
+     text-decoration: none;
+}
+ .section-features .single-service .part-2 a i {
+     margin-right: 10px;
+     color: #29f700;
+}
+ .footer {
+     background: #192027;
+     text-align: center;
+     padding: 32px 0;
+}
+ .footer p {
+     margin: 0;
+     line-height: 26px;
+     font-size: 15px;
+     color: #999;
+}
+ .footer p a {
+     color: #5867dd;
+     text-decoration: none;
+}
+ .footer p a:hover {
+     color: #34bfa3;
+}
+
+ ::-webkit-scrollbar {
+     width: 15px;
+}
+ ::-webkit-scrollbar-track {
+     background: #192027;
+}
+ ::-webkit-scrollbar-thumb {
+     background: #06b800;
+     border-radius: 20px;
+}
+ ::-webkit-scrollbar-thumb:hover {
+     background: #048500;
+}
+ .verticalSpacer {
+     border-left: 1px solid gray;
+     height: 34px;
+     margin-top: 3px;
+     margin-bottom: 3px;
+     margin-left: 3px;
+     margin-right: 3px;
+}
+.horizontalSpacer {
+     border-left: 1px solid white;
+     height: 10px;
+     margin-top: 3px;
+     margin-bottom: 3px;
+     margin-left: 3px;
+     margin-right: 3px;
+}
+ .greenButtonLink {
+     color: #5867dd;
+     text-decoration: none;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;
+ 0,400;
+ 0,500;
+ 1,300;
+ 1,400&display=swap');
+ @import url('https://unpkg.com/@fortawesome/fontawesome-free@5.15.4/css/all.min.css');
+ @keyframes fadeInAnimation {
+     0% {
+         opacity: 0;
+    }
+     100% {
+         opacity: 1;
+    }
+}
+ * {
+     font-family: Roboto;
+}
+ .fa-magnifying-glass {
+     color: white;
+}
+ .logo-wrapper .text {
+     font-size: 75px;
+     font-family: "Roboto";
+     color: #FFF;
+}
+ .logo-wrapper h1 {
+     color: white;
+}
+ input {
+     display: block;
+     justify-content: center;
+     background: none;
+     font-family: inherit;
+     padding: 0px 10px;
+     border: 1px solid rgb(255, 255, 255, .2);
+     color: var(--text-color);
+     outline: none;
+     margin-top: 3px;
+     border-radius: 1px;
+     color: #FFF;
+}
+input:focus {
+     border: 1px solid rgba(253, 253, 253, 0.514);
+     border-radius: 6px;
+     animation: fadeInAnimation ease-in-out 0.3s;
+     animation-iteration-count: 1;
+     animation-fill-mode: forwards;
+}
+ 
