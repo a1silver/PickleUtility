@@ -13,8 +13,8 @@
     "start": "node ."
   },
   "keywords": [
-    "proxy"
+    "proxy", "uncensored"
   ],
-  "author": "",
+  "author": "DepthStrider03",
   "license": "GPL-3.0-or-later"
 }
