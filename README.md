@@ -1,4 +1,4 @@
-<p align="center"><img src="static/img/pickle.ico" height="200">
+<p align="center"><img src="static/img/christmas pickle.ico" height="200">
 </p>
 
 <h1 align="center">Pickle Utility</h1>
