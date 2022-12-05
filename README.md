@@ -37,7 +37,7 @@
 ## Ultraviolet is used by
 - [Incognito](https://github.com/caracal-js/Incognito), a popular web proxy service with focus on privacy
 - [Holy-Unblocker](https://github.com/titaniumnetwork-dev/Holy-Unblocker), a popular web proxy service focusing on bypassing web filters and more
-- [Hypertabs](titaniumnetwork.org/), a web proxy service using a PWA browser as its frontend
+- [Hypertabs](https://titaniumnetwork.org/), a web proxy service using a PWA browser as its frontend
 
 ## Authors
 
