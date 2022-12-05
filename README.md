@@ -47,5 +47,7 @@
 ## Credits
 - https://github.com/tomphttp
 - https://github.com/titaniumnetwork-dev/Ultraviolet-Node
+- https://github.com/titaniumnetwork-dev/ultraviolet-web-app (Discontinued/Archived)
+- https://github.com/titaniumnetwork-dev/Ultraviolet
 
 
