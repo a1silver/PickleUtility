@@ -2,24 +2,24 @@ import Server from 'bare-server-node';
 import http from 'http';
 import nodeStatic from 'node-static';
 
-const bare =  new Server('/bare/', '');
+const bare = new Server('/bare/', '');
 const serve = new nodeStatic.Server('static/');
 
 const server = http.createServer();
 
-function isUrl(val = ''){
-    if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
-    return false;
+function isUrl(val = '') {
+  if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
+  return false;
 };
 
 server.on('request', (request, response) => {
-    if (bare.route_request(request, response)) return true;
-    serve.serve(request, response);
+  if (bare.route_request(request, response)) return true;
+  serve.serve(request, response);
 });
 
 server.on('upgrade', (req, socket, head) => {
-	if(bare.route_upgrade(req, socket, head))return;
-	socket.end();
+  if (bare.route_upgrade(req, socket, head)) return;
+  socket.end();
 });
 
 server.listen(process.env.PORT || 8080);
